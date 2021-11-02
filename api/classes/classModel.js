@@ -5,7 +5,7 @@ const con = mysql.createConnection({
     host: "sql10.freemysqlhosting.net",
     user: "sql10448501",
     password: "ljdr2PRpSY",
-    database: "	sql10448501"
+    database: "sql10448501"
 });
 exports.list =  function(req,res) {
     return new Promise((resolve, reject) => {
